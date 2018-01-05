@@ -4,16 +4,16 @@ library(shiny)
 ui <- fluidPage(
    
    # Application title
-   titlePanel("Old Faithful Geyser Data"),
+   titlePanel("Dad-thoney"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
       sidebarPanel(
          sliderInput("bins",
-                     "Number of bins:",
-                     min = 1,
-                     max = 50,
-                     value = 30)
+                     "Average Botty Calls per Night",
+                     min = 50,
+                     max = 500,
+                     value = 237)
       ),
       
       # Show a plot of the generated distribution
